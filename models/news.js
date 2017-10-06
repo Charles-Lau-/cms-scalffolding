@@ -21,6 +21,6 @@ newsSchema.listColumns = ['_id', 'type', 'title', 'link', 'coverImg', 'desc', 'k
                            'createDate', 'updateDate']
 newsSchema.selectColumns = ['_id', 'type', 'title', 'link', 'content', 'coverImg', 'desc', 'key', 'outLink', 'isPublished',
                            'createDate', 'updateDate']
-                           
+ 
 //module.exports = mongoose.model('Dept', deptSchema);
 module.exports = newsSchema
